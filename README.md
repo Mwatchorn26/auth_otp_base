@@ -1,6 +1,8 @@
 Authentication for One Time Password (2 Factor Authentication)
 ==============================================================
 
+One Time Passwords are different for every time you log in. Hence they are only valid one-time. Technically some methods (like the Google Authenticator) are valid for a short fixed amount of time (generally 1 minute). Technically this is still a "something you know" not a "something you have"
+
 This generic One Time Password (OTP) login module provides basic 
 session and mechanism for OTP. This module allows for 2 Factor Authentication
 (Related to 2 Step Verification)
@@ -23,3 +25,6 @@ The OTP configuration is done on the company view, and on each user view.
 The Company view allows for the module to be on for certain database companies and off for others.
 The User view allows the setting of set the secret key for each user.
 
+2 Factor Authentication vs 2 Step Verfication
+=============================================
+This One Time Password module requires the user to enter the OTP at the same time as the users memorized password is entered. It is not requested after the submission of the memorized password, and (although that's a simplified reason) that is why it is not 2 steps. It does however introduce a new factor, so it is 2 factor Authentication.
