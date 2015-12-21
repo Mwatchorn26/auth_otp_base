@@ -27,4 +27,4 @@ The User view allows the setting of set the secret key for each user.
 
 2 Factor Authentication vs 2 Step Verfication
 =============================================
-This One Time Password module requires the user to enter the OTP at the same time as the users memorized password is entered. It is not requested after the submission of the memorized password, and (although that's a simplified reason) that is why it is not 2 steps. It does however introduce a new factor, so it is 2 factor Authentication.
+This One Time Password module requires the user to enter the OTP at the same time as the users memorized password is entered. It is not requested after the submission of the memorized password, and (although that's a simplified reason) that is why it is not 2 steps. It does however introduce a new factor, so it is 2 factor Authentication. What would be even better is if the mobile device was used completely independently of the webpage sign-in (for another day!).
